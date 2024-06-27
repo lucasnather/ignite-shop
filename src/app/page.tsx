@@ -11,13 +11,6 @@ interface ProductsProps {
   price: string
 }
 
-async function consumeApi() {
-  const products = await fetch('http://localhost:3000/api/products')
-  const data: ProductsProps[] = await products.json()
-
-  return data
-}
-
 export default function Home() {
 
   const [products, setProducts] = useState<ProductsProps[]>([])
