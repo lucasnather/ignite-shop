@@ -10,7 +10,8 @@ export const globalStyles = globalCss({
         fontFamily: 'Roboto',
         backgroundColor: '$grayBackground',
         width: '100%',
-        minHeight: '100vh'
+        minHeight: '100vh',
+        overflowX: 'hidden'
     }
 
 })

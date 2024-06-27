@@ -17,6 +17,7 @@ export const {
             grayBackground: "#121214",
             grayElements: "#202024",
             grayIcon: "#202024",
+            grayOpacity: "#20202490",
             grayText: "#C4C4CC",
             grayTitle: "#E1E1E6",
             white: "#FFFFFF",
